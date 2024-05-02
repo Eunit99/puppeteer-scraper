@@ -22,7 +22,7 @@ const getPosts = async () => {
             });
 
             // Set screen size
-            // await page.setViewport({width: 1080, height: 1024});
+            await page.setViewport({width: 1080, height: 1024});
 
             // Wait for some time (optional, for demonstration)
             await page.waitForSelector('.Cmp__action.Cmp__action--yes');
